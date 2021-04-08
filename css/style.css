@@ -1,3 +1,4 @@
+/* Common */
 section {
     padding: 2% 0;
     text-align: center;
@@ -6,7 +7,9 @@ section {
 [class*="col-"] {
     padding: 2%;
 }
+/* --Common */
 
+/* Images resizing */
 .top h1,
 .mid h1 {
     margin-bottom: 3%;
@@ -23,7 +26,9 @@ section {
     border-radius: 50%;
     background-color: #428bca;
 }
+/* --Images resizing */
 
+/* Tablet specific */
 @media screen and (min-width: 768px) and (max-width: 991px) {
     
     .top img,
@@ -33,7 +38,9 @@ section {
     }
 
 }
+/* --Tablet specific */
 
+/* Smartphone specific */
 @media screen and (max-width: 767px) {
 
     h1 {
@@ -52,3 +59,4 @@ section {
     }
     
 }
+/* --Smartphone specific */
