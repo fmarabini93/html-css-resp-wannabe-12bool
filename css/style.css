@@ -1,5 +1,10 @@
 section {
     padding: 2% 0;
+    text-align: center;
+}
+
+[class*="col-"] {
+    padding: 1%;
 }
 
 .top h1,
@@ -17,4 +22,19 @@ section {
     padding: 5%;
     border-radius: 50%;
     background-color: #428bca;
+}
+
+@media screen and (max-width: 767px) {
+
+    .top img,
+    .mid img,
+    .btm img {
+        height: 150px;
+    }
+    
+    .top,
+    .btm {
+        background-color: #f2f2cd;
+    }
+    
 }
