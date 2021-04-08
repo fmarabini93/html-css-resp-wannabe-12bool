@@ -1,0 +1,20 @@
+section {
+    padding: 2% 0;
+}
+
+.top h1,
+.mid h1 {
+    margin-bottom: 3%;
+}
+.top img,
+.mid img {
+    height: 200px;
+}
+
+.btm img {
+    height: 250px;
+    margin-top: 3%;
+    padding: 5%;
+    border-radius: 50%;
+    background-color: #428bca;
+}
